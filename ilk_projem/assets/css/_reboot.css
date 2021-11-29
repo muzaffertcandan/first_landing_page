@@ -17,7 +17,9 @@ ul, ol
 button {
     border: none;
 }
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 a {
     display: inline-block;
     text-decoration: none;

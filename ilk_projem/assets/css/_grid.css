@@ -1,8 +1,17 @@
+/* @container */
+
 .container {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
 
 }
+
+.container-large {
+   max-width: 1280;
+   margin: 0 auto;
+}
+
+/* @columns */
 
 .row {
     display: flex;
@@ -11,8 +20,19 @@
     margin-right: -1rem;
 }
 
+
 .column {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
+ /*@justify */
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* @aligns. */
+.align-center {
+    align-items: center;
+}
