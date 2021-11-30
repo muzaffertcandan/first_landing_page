@@ -26,6 +26,11 @@
     padding-right: 1rem;
 }
 
+.flex-fill {
+    flex: 1 0 0;
+    max-width: 100%;
+}
+
  /*@justify */
 
 .justify-between {
