@@ -26,6 +26,27 @@
         left: 0;
         z-index: 1;
     }
+
+     /* @Pink section */
+
+    .pink-section-content {
+        padding-right: 92px;
+    }
+
+    .pink-section {
+        margin-bottom: 150px;
+    }
+
+    /* @Features */
+
+    .features h2 {
+        margin-bottom: 50px;
+    }
+
+    .features .section-header p {
+        width: 584px;
+        margin: 0 auto;
+    }
 }
 
 /* @HERO SECTİON */
@@ -42,6 +63,60 @@
 }
 
     /* @Pink section */
-.pink-section {
-    background-image: url("../img/");
+
+.pink-section-background {
+    background-position: center;
+    background-image: url("../img/pink_background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pink-section h2 {
+    color: #212353;
+    font-weight: 700;
+    line-height: 52px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.pink-section p {
+    color: #4B5D68;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+/* @Features */
+
+.features h2 {
+    font-size: 40px;
+    color: #212353;
+    font-weight: 700;
+}
+
+.features .section-header p {
+    color: #4B5D68;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.features .section-header {
+    margin-bottom: 70px;   
+}
+
+.features .card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features .card-content {
+    flex: 1 0 0;
+}
+
+
+.features .card-image,
+.features .card-content {
+    padding-left: 15px;
 }

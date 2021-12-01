@@ -31,6 +31,11 @@
     max-width: 100%;
 }
 
+.flex-2 {
+    flex: 0 0 calc(100% / 2);
+    max-width: calc(100% / 2);
+}
+
  /*@justify */
 
 .justify-between {
