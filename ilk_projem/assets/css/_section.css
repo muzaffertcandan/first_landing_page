@@ -120,3 +120,21 @@
 .features .card-content {
     padding-left: 15px;
 }
+
+
+.features .card:before {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.features .card:before {
+    background-image: url("../img/card-image-1.svg");
+}
