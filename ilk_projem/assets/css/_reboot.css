@@ -3,41 +3,33 @@
   box-sizing: border-box;
 }
 
-html,
-body,
-ul,
-ol {
+html, body, 
+ul, ol {
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-ul,
-ol {
+ul, ol {
   list-style: none;
 }
 
 button {
   background-color: transparent;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+h1, h2, h3, h4, h5, h6,
 p {
   margin: 0;
 }
@@ -48,11 +40,11 @@ figure {
 
 @media screen and (max-width: 1024px) {
   img {
-    display: block;
-    max-width: 100%;
+      display: block;
+      max-width: 100%;
   }
 
   section {
-    text-align: center;
+      text-align: center;
   }
 }

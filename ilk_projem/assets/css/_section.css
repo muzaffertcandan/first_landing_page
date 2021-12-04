@@ -27,26 +27,87 @@
         z-index: 1;
     }
 
-     /* @Pink section */
+    /* @Pink Section */
+    .features,
+    .pink-section {
+        margin-bottom: 150px;
+    }
 
     .pink-section-content {
         padding-right: 92px;
     }
 
-    .pink-section {
-        margin-bottom: 150px;
-    }
-
     /* @Features */
-
     .features h2 {
         margin-bottom: 50px;
-        
+    }
+
+    .features .card:before {
+        content: "";
+        display: block;
+        background-image: url("../img/green-background.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
     }
 
     .features .section-header p {
         width: 584px;
         margin: 0 auto;
+    }
+    
+    .comments-background {
+        background-image: url("../img/testimonials.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 710px;
+        padding-top: 110px;
+        padding-left: 93px;
+    }
+
+    .comments .swiper-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 1024px)  {
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-section {
+        margin-bottom: 30px;
+    }
+
+    .hero-section .hero-content {
+        margin-bottom: 15px;
+    }
+
+    .pink-section {
+        margin-bottom: 30px;
+    }
+
+    .pink-section-background {
+        padding-bottom: 30px;
+    }
+
+    .swiper-container .swiper-slide {
+        flex: 0 0 100%;
+    }
+
+    .swiper-container .swiper-slide .slider-item-container .slider-image img {
+        margin: 0 auto;
+        display: block;
     }
 }
 
@@ -63,15 +124,13 @@
     line-height: 2;
 }
 
-    /* @Pink section */
-
+/* @Pink Section */
 .pink-section-background {
     background-position: center;
     background-image: url("../img/pink_background.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .pink-section h2 {
     color: #212353;
@@ -86,12 +145,11 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-
 }
 
 /* @Features */
 
-.features .sectionheader h2 {
+.features .section-header h2 {
     font-size: 40px;
     color: #212353;
     font-weight: 700;
@@ -101,15 +159,23 @@
     color: #4B5D68;
     font-size: 18px;
     font-weight: 500;
+    line-height: 2;
 }
 
 .features .section-header {
-    margin-bottom: 70px;   
+    margin-bottom: 70px;
 }
 
 .features .card {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.features .card-content {
+    flex: 1 0 0;
 }
 
 .features .card-image,
@@ -118,9 +184,8 @@
     padding-right: 15px;
 }
 
-.features .card-content {
-    flex: 1 0 0;
+/* @Comments */
+.comments {
+    position: relative;
+    overflow: hidden;
 }
-
-
-
