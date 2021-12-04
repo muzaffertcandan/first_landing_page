@@ -1,4 +1,5 @@
-button, .button {
+button,
+.button {
     border-radius: 50px;
     padding: 17px 29px;    
 }
