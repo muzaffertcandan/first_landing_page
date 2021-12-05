@@ -32,7 +32,7 @@
     .pink-section-content {
         padding-right: 92px;
     }
-
+    .features,
     .pink-section {
         margin-bottom: 150px;
     }
@@ -46,6 +46,11 @@
     .features .section-header p {
         width: 584px;
         margin: 0 auto;
+    }
+
+    .comments-background {
+        padding-top: 110px;
+        padding-left: 93px;
     }
 }
 
@@ -108,7 +113,10 @@
 
 .features .card {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .features .card-content {
@@ -125,6 +133,8 @@
 .features .card:before {
     content: "";
     display: block;
+    background-image: url("../img/card-green.svg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
     position: absolute;
@@ -134,7 +144,10 @@
     height: 100%;
 }
 
+/* @Comments */
 
-.features .card:before {
-    background-image: url("../img/card-image-1.svg");
+.comments-background {
+    background-image: url("../img/testimonials.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
