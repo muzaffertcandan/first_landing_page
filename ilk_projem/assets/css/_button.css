@@ -28,3 +28,10 @@ button,
     font-size: 18px;
     font-weight: 900;
 }
+
+.pink-button {
+    background-color: #F063B8;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+}

@@ -8,19 +8,21 @@
 .comments .comment-slider .comment-item {
     padding-left: 15px;
     padding-right: 15px;
+    width: 400px;
+    transition: 0.5s;
 }
 
 .comments .comment-slider .comment-item-container {
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    border-radius: 50px 25px;
+    border-radius: 10px;
+    padding: 50px 25px;
 
 }
 
 
-.comments .comment-slider .comment-item.active {
+.comments .comment-slider .comment-item .swiper-slide-active {
     width: 645px;
 
 }
