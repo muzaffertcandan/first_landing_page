@@ -1,6 +1,6 @@
 @media screen and (min-width: 1024px) {
     .footer {
-        margin-top: 150px;
+      
     }
 
     .footer h3 {
@@ -11,6 +11,7 @@
 
 
 .footer {
+    margin-top: 150px;
     padding-top: 100px;
     padding-bottom: 90px;
     border-top: 1px solid #9C69E2;
@@ -40,7 +41,12 @@
 
 .footer .logo {
     display: block;
+    
     margin-bottom: 63px;
+}
+
+.footer .logo img {
+    margin: 0 auto;
 }
 
 .footer-menu-title {
@@ -60,6 +66,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: -7px;
+    margin-right: -7px;
 }
 
 
@@ -76,4 +84,13 @@
     height: 30px;
     background-color: #ddd;
     
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+     text-align: center;
+    }
+    .mobile-margin-bottom {
+        margin-bottom: 30px;
+    }
 }

@@ -43,14 +43,74 @@
         margin-bottom: 50px;
     }
 
+    .features .card:before {
+        content: "";
+        display: block;
+        background-image: url("../img/card-green.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
     .features .section-header p {
         width: 584px;
         margin: 0 auto;
     }
 
     .comments-background {
+        background-image: url("../img/testimonials.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 710px;
         padding-top: 110px;
-        padding-left: 93px;
+        padding-right: 93px;
+    }
+
+    .comments .swiper-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    section {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .hero-section {
+        margin-bottom: 30px;
+    }
+
+    .hero-content {
+        margin-bottom: 15px;
+    }
+
+    .pink-section {
+        margin-bottom: 30px;
+        
+    }
+
+    .pink-section-background{
+        padding-bottom: 30px;
+    }
+    
+    .swiper-container .swiper-slide {
+        flex: 0 0 100%;
+    }
+
+    .swiper-container .swiper-slide .swiper-item-container .swiper-image img {
+        margin: 0 auto;
+        display: block;
     }
 }
 
@@ -130,20 +190,6 @@
 }
 
 
-.features .card:before {
-    content: "";
-    display: block;
-    background-image: url("../img/card-green.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
 /* @Comments */
 
 .comments {
@@ -151,17 +197,4 @@
     overflow-x: hidden;
 }
 
-.comments .swiper-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
 
-.comments-background {
-    background-image: url("../img/testimonials.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 710px;
-}

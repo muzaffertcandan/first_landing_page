@@ -35,3 +35,10 @@ button,
     font-size: 18px;
     font-weight: 900;
 }
+
+@media screen and (max-width: 1024px) {
+    button, .button {
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
+}

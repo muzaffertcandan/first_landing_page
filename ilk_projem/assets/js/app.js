@@ -14,6 +14,16 @@ function slider(element, options) {
           el: ".swiper-pagination",
           clickable: true,
         },
+        navigation: {
+            nextE1: '.swiper-button-next',
+            prevE1: '.swiper-button-prew',
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            }
+        }
     })
 }
 window.addEventListener('load', function(){

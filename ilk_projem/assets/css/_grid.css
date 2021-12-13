@@ -46,3 +46,22 @@
 .align-center {
     align-items: center;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.column {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.flex-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
