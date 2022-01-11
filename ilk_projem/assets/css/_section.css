@@ -79,34 +79,33 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px)  {
     section {
-        padding-right: 15px;
         padding-left: 15px;
+        padding-right: 15px;
     }
 
     .hero-section {
         margin-bottom: 30px;
     }
 
-    .hero-content {
+    .hero-section .hero-content {
         margin-bottom: 15px;
     }
 
     .pink-section {
         margin-bottom: 30px;
-        
     }
 
-    .pink-section-background{
+    .pink-section-background {
         padding-bottom: 30px;
     }
-    
+
     .swiper-container .swiper-slide {
         flex: 0 0 100%;
     }
 
-    .swiper-container .swiper-slide .swiper-item-container .swiper-image img {
+    .swiper-container .swiper-slide .slider-item-container .slider-image img {
         margin: 0 auto;
         display: block;
     }
@@ -125,15 +124,13 @@
     line-height: 2;
 }
 
-    /* @Pink section */
-
+/* @Pink Section */
 .pink-section-background {
     background-position: center;
     background-image: url("../img/pink_background.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .pink-section h2 {
     color: #212353;
@@ -148,12 +145,11 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-
 }
 
 /* @Features */
 
-.features h2 {
+.features .section-header h2 {
     font-size: 40px;
     color: #212353;
     font-weight: 700;
@@ -163,10 +159,11 @@
     color: #4B5D68;
     font-size: 18px;
     font-weight: 500;
+    line-height: 2;
 }
 
 .features .section-header {
-    margin-bottom: 70px;   
+    margin-bottom: 70px;
 }
 
 .features .card {
@@ -181,18 +178,14 @@
     flex: 1 0 0;
 }
 
-
 .features .card-image,
 .features .card-content {
     padding-left: 15px;
+    padding-right: 15px;
 }
-
 
 /* @Comments */
-
 .comments {
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
-
-
