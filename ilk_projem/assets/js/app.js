@@ -1,31 +1,35 @@
 "use strict";
 
 function slider(element, options) {
-
     if(typeof options === "undefined") {
         options = {};
     }
 
     new Swiper(element, {
         slidesPerView: options.slidesPerView ? options.slidesPerView : 'auto',
-        spaceBetween: options.spaceBetween ? options.spaceBetween : 30,
+        spaceBetween: options.spaceBetween ? options.spaceBetween : 0,
         centeredSlides: options.centeredSlides ? options.centeredSlides : true,
         pagination: {
-          el: ".swiper-pagination",
+          el: '.swiper-pagination',
           clickable: true,
         },
         navigation: {
-            nextE1: '.swiper-button-next',
-            prevE1: '.swiper-button-prew',
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         },
         breakpoints: {
             1024: {
+                slidesPerView: 'auto',
+                centeredSlides: true
+            },
+            1023: {
                 slidesPerView: 1,
-                spaceBetween: 0,
-            }
+                centeredSlides: false
+            },
         }
     })
 }
+
 window.addEventListener('load', function(){
     slider(".swiper-container");
 });

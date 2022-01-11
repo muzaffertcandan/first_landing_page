@@ -2,17 +2,16 @@
     position: relative;
 }
 
-.text-right {
-    text-align: right;
-}
-
 .text-center {
     text-align: center;
 }
 
-.text-white {
-    color: #FFFFFF;
+.text-right {
+    text-align: right;
+}
 
+.text-white {
+    color: #ffffff;
 }
 
 .font-size-40 {
@@ -23,8 +22,6 @@
     font-weight: 700;
 }
 
-
-
 @media screen and (min-width: 1024px) {
     .desktop-none {
         display: none;
@@ -33,6 +30,7 @@
     .desktop-show {
         display: block;
     }
+
     .margin-bottom-30 {
         margin-bottom: 30px;
     }
@@ -58,6 +56,7 @@
     .mobile-show {
         display: block;
     }
+
     .margin-bottom-30 {
         margin-bottom: 15px;
     }
@@ -77,5 +76,4 @@
     .mobile-justify-center {
         justify-content: center;
     }
-
 }
