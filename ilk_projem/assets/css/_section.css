@@ -27,18 +27,17 @@
         z-index: 1;
     }
 
-     /* @Pink section */
-
-    .pink-section-content {
-        padding-right: 92px;
-    }
+    /* @Pink Section */
     .features,
     .pink-section {
         margin-bottom: 150px;
     }
 
-    /* @Features */
+    .pink-section-content {
+        padding-right: 92px;
+    }
 
+    /* @Features */
     .features h2 {
         margin-bottom: 50px;
     }
@@ -61,14 +60,14 @@
         width: 584px;
         margin: 0 auto;
     }
-
+    
     .comments-background {
         background-image: url("../img/testimonials.svg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         height: 710px;
         padding-top: 110px;
-        padding-right: 93px;
+        padding-left: 93px;
     }
 
     .comments .swiper-container {
@@ -78,7 +77,6 @@
         transform: translate(-50%, -50%);
         z-index: 1;
     }
-    
 }
 
 @media screen and (max-width: 1024px) {
